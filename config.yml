@@ -1,0 +1,13 @@
+environment: production
+chdir: /home/anil/public_html/didrahmanwinanoscar.com
+address: 127.0.0.1
+user: anil
+group: anil
+port: 4569
+pid: /home/anil/public_html/didrahmanwinanoscar.com/thin.pid
+rackup: /home/anil/public_html/didrahmanwinanoscar.com/config.ru
+log: /home/anil/public_html/didrahmanwinanoscar.com/thin.log
+max_conns: 1024
+timeout: 30
+max_persistent_conns: 512
+daemonize: true

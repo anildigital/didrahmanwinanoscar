@@ -1,0 +1,13 @@
+environment: production
+chdir: /Users/anildigital/Code/sinatra/didrahmanwinanoscar.com
+address: 127.0.0.1
+user: anildigital
+group: staff
+port: 4569
+pid: /Users/anildigital/Code/sinatra/didrahmanwinansoscar.com/thin.pid
+rackup: /Users/anildigital/Code/sinatra/didrahmanwinanoscar.com/config.ru
+log: /Users/anildigital/Code/sinatra/didrahmanwinanoscar.com/thin.log
+max_conns: 1024
+timeout: 30
+max_persistent_conns: 512
+daemonize: true

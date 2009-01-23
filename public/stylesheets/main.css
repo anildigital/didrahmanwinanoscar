@@ -1,0 +1,47 @@
+body {
+  background: url(http://www.arrahman.com/v2/OscarBanner.gif) no-repeat 50% 70%;
+  background-color: #e7e7e7;
+}
+
+#wrap {
+  margin: 0pt auto;
+  width: 900px;
+}
+
+a { 
+  color: #999999;
+  text-decoration: none;
+}
+
+#header {
+  font-size: 7em;
+  font-family: Arial, helvetica;
+  color: #454545;
+  font-weight: bold;
+  letter-spacing: -5px;
+  text-align:center;
+  margin-top: 40px;
+}
+
+#daystogo {
+  font-family: Arial, helvetica;
+  color: #454545;
+  font-weight: bold;
+  text-align:center;
+  margin-top: 20px;
+}
+
+#brought_to {
+  font-size: 0.9em;
+  text-align:center;
+  color: black;
+  font-weight: bold;
+  margin-top: 320px;
+}
+
+#contact {
+  font-size: 0.9em;
+  font-family: verdana;
+  text-align:center;
+}
+
