@@ -11,6 +11,10 @@ get "/" do
   erb :index
 end
 
+get "/chat" do
+  erb :chat
+end
+
 #Exception handing for production environment
 configure :production do
   not_found do
