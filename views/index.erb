@@ -14,7 +14,17 @@
         not yet
       </div>
       <div id="daystogo">
-        <%= @days %> days to go!
+        <% if @days > 1 %>
+        <%= @days %> days to go! <br />
+        <% elsif @hours > 1 %>
+        <%= @hours %> hours to go! <br />
+        <% elsif @minutes > 1 %>
+        <%= @minutes %> minutes to go! <br />
+        <% elsif @seconds > 1 %>
+        <%= @seconds.to_i %> seconds to go! <br />
+        <% else %>
+          Oscar Ceremony has now started! Wait for the ultimate moment!
+        <% end %>
       </div>
       <div id="brought_to">
         Brought to you by Digital Codes
