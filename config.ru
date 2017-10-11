@@ -4,6 +4,6 @@ set :env,       :production
 set :port,      4569
 disable :run, :reload
 
-require 'app'
+require_relative './app'
 
-run Sinatra.application
+run Sinatra::Application
