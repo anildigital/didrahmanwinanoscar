@@ -1,5 +1,5 @@
-CheatSweets
-=========== 
+Did Rahman Win An Oscar
+===========
 
 A sinatra app that is just sweet!
 
@@ -7,4 +7,4 @@ A sinatra app that is just sweet!
 Author
 ======
 
-(anil@digitalcodes.org) ; anil wadghule
+(anil@anilwadghule.com) ; anil wadghule
